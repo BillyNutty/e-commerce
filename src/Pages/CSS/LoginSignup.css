@@ -67,3 +67,22 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media screen and (max-width: 900px) {
+    .loginsignup-fields input {
+        width: 350px;
+    }
+    .loginsignup-fields {
+        align-items: center;
+    }
+
+    .loginsignup-container h1 {
+        text-align: center;
+    }
+    .loginsignup-container button{
+         width: 350px;
+    }
+    .loginsignup-container {
+        width: 350px;
+    }
+}

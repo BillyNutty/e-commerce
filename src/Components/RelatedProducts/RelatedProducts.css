@@ -24,3 +24,30 @@
     display: flex;
     gap: 30px;
 }
+
+@media screen and (max-width: 1200px) { 
+    .relatedproducts {
+        height: 1250px;
+    }
+    .relatedproducts h1 {
+    font-size: 40px;
+    font-weight: 200;
+    }
+    .relatedproducts hr {
+        display: none;
+    }
+    .relatedproducts-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 900px) { 
+    .relatedproducts {
+        height: 2300px;
+    }
+    .relatedproducts-item { 
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

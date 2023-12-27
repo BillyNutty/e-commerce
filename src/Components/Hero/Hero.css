@@ -57,3 +57,27 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 1200px) {
+.hero {
+    flex-direction: column;
+    margin-bottom: 29rem;
+}
+
+.hero-left {
+   margin-top: 40px;
+   padding-left: 0;
+   align-items: center;
+} 
+.hero-left p{
+   margin-left: 30px;
+    font-size: 80px;
+    font-weight: 700;
+}
+}
+
+@media screen and (max-width: 900px) {
+    .hero-left p{
+         font-size: 65px;
+     }
+}

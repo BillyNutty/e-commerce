@@ -108,3 +108,46 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+    .cartitems {
+        margin: 20px 20px;
+    }
+    .cartitems-format-main {
+        gap: 10px;
+    }
+    .cartitems-down {
+        flex-direction: column;
+    }
+    .cartitems-total-item {
+        column-gap: 175px;
+    }
+    .cartitems-total {
+      margin: 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .cartitems-total button{
+       align-items: center;
+       justify-content: center;
+    }
+    .cartitems-promobox{
+        width: 50%;
+        margin: 20px 40px;
+     }
+     .cartitems-promobox button{
+        margin-top: 20px;
+        margin: 25px 70px;
+     }
+}
+
+@media screen and (max-width: 900px) {
+    .cartitems-promobox{
+       width: 54%;
+       margin: 20px 40px;
+    }
+    .cartitems-promobox button{
+       
+    }
+}
+

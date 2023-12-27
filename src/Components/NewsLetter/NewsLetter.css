@@ -53,3 +53,17 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+    .newsletter{
+        height: 50vh;
+        padding: 40px 40px;
+    }
+    .newsletter h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .newsletter div{
+         width: 450px;
+    }
+}

@@ -25,3 +25,24 @@
     margin-top: 50px;
     gap: 30px;
 }
+
+@media screen and (max-width: 1200px) {
+    .new-collections h1 {
+      font-size: 40px;
+      font-weight: 200;
+    }
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .new-collections hr{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

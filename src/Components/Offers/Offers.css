@@ -4,7 +4,7 @@
     display: flex;
     margin: auto;
     padding: 0px 140px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }
 
@@ -47,3 +47,29 @@
     justify-content: flex-end;
     padding-top: 50px;
 }
+
+@media screen and (max-width: 1200px) {
+    .offers{
+        margin-top: 500px;
+        margin-bottom: 100px;
+        }
+    .offers-left h1{
+        font-size: 60px;
+    }
+    .offers-right{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .offers {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 40px;
+        margin-bottom: 490px;
+    }
+    .offers-left {
+        align-items: center;
+    }
+}
+
