@@ -73,10 +73,10 @@
 
 @media(max-width: 500px) {
     .item {
-        width: 160px;
+        width: 280px;
         font-size: 11px;
     }
     .item img {
-        width: 160px;
+        width: 280px;
     }
 }
