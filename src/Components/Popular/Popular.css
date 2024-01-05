@@ -78,11 +78,12 @@
 @media(max-width: 500px) {
     .popular {
         height: 90vh;
+        margin-bottom: 100px;
     }
     .popular-item {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        width: 300px;
+        gap: 15px;
+        width: 335px;
     }
 }
