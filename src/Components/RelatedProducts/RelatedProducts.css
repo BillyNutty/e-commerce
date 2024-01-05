@@ -78,7 +78,7 @@
 @media(max-width: 500px) {
     .relatedproducts {
         height: 80vh;
-        margin-bottom: 1250px;
+        margin-bottom: 1275px;
     }
     .relatedproducts-item {
         display: grid;
