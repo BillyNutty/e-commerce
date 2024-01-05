@@ -78,7 +78,7 @@
 @media(max-width: 500px) {
     .popular {
         height: 90vh;
-        margin-bottom: 1150px;
+        margin-bottom: 1250px;
     }
     .popular-item {
         display: grid;

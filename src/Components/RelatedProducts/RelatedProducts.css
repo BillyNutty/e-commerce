@@ -78,10 +78,11 @@
 @media(max-width: 500px) {
     .relatedproducts {
         height: 80vh;
+        margin-bottom: 1250px;
     }
     .relatedproducts-item {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 }
